@@ -15,7 +15,7 @@ html {
 }
 
 header {
-  background-image: url('/assets/Hero-bg.png');
+  background-image: url('../assets/Hero-bg.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,7 +151,7 @@ footer{
   margin: 20px;
 }
 #support{
-  background-image: url('/assets/handshake.jpg');
+  background-image: url('../assets/handshake.jpg');
   display: flex;
   flex-direction: column;
   justify-content: center;
