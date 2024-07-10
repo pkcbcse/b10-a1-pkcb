@@ -12,13 +12,15 @@ html {
 .start {
   display: flex;
   justify-content: space-between;
+  margin: 16px;
 }
 
 header {
-  background-image: url('../assets/Hero-bg.png');
+  background-image: url('../assets/Herobg.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -26,7 +28,7 @@ header {
 }
 
 header img {
-  max-width: 300px; */
+  max-width: 300px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -53,7 +55,9 @@ header button {
 
 #whywebdev {
   margin-top: 50px;
-  
+  background-color: #f1f5f5;
+  margin: 60px;
+  padding: 20px;
 }
 .webdev {
   text-align: center;
@@ -64,21 +68,27 @@ header button {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
+  background-color: white;
+  margin: 90px;
 }
 
-.helppeople{
+.helppeople {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
+  background-color: white;
+  margin: 90px;
 }
 
-.Docoding{
-   display: flex;
+.Docoding {
+  display: flex;
   justify-content: space-around;
   padding-top: 50px;
+  background-color: white;
+  margin: 90px;
 }
 
-.inspiration{
+.inspiration {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,69 +98,126 @@ header button {
   text-align: center;
 }
 
-.inspiration1{
- padding-top: 50px;
+.inspiration1 {
+  padding-top: 50px;
+}
+.button {
+  padding: 10px;
+  margin-top: 20px;
 }
 
-footer{
+.content {
+  line-height: 35px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgb(185, 184, 184);
+}
+
+.currentTarget {
+  text-align: center;
+}
+
+.tech-button {
+  border: none;
+  text-decoration: underline;
+  padding: 0;
+  background-color: transparent;
+}
+
+.HTML {
+  width: 450px;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  line-height: 30px;
+  background-color: bisque;
+}
+
+.CSS {
+  width: 450px;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  line-height: 30px;
+  background-color: grey;
+}
+.Javascript {
+  width: 450px;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  line-height: 30px;
+  background-color: rgb(213, 228, 228);
+}
+
+.tech {
   display: flex;
   justify-content: space-between;
 }
 
-.currentTarget{
+.nexTarget {
   text-align: center;
 }
 
-.HTML {
-  width: 300px;
+.ReactJS {
+  max-width: 100%;
   border: 1px solid black;
-  padding: 50px;
+  padding: 30px;
   margin: 20px;
-}
-
-.CSS {
-  width: 300px;
-  border: 1px solid black;
-  padding: 50px;
-  margin: 20px;
-}
-.Javascript {
-  width: 300px;
-  border: 1px solid black;
-  padding: 50px;
-  margin: 20px;
-}
-
-.tech{
+  border-radius: 10px;
   display: flex;
-  flex-direction: center;
+  gap: 20px;
+  align-items: center;
 }
 
-.nexTarget{
-  text-align: center;
-}
-
-.ReactJS{
+.NodeJs {
   max-width: 100%;
   border: 1px solid black;
-  padding: 50px;
+  padding: 30px;
   margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.NodeJs{
+.MongoDB {
   max-width: 100%;
   border: 1px solid black;
-  padding: 50px;
+  padding: 30px;
   margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.MongoDB{
-  max-width: 100%;
-  border: 1px solid black;
-  padding: 50px;
-  margin: 20px;
+.section-3 {
+  margin: 40px;
 }
-#support{
+
+.section-4 {
+  margin: 40px;
+}
+
+.section-5 {
+  margin: 40px;
+  line-height: 30px;
+}
+
+.input-support {
+  padding: 15px 50px;
+}
+
+.input-button {
+  padding: 15px 15px;
+}
+
+#support {
   background-image: url('../assets/handshake.jpg');
   display: flex;
   flex-direction: column;
